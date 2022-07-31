@@ -1,0 +1,27 @@
+<?php
+
+class SignatureType{
+	public static $XADES="XADES_EPES_ENVELOPED";
+	public static $CMS="CMS";
+	public static $PDF_PKCS7="PDF_PKCS7";
+	public static $DIGITALIZED_SIGN = "DIGITALIZED_SIGN";
+	
+}
+
+class MimeType{
+	public static $XML ="text/xml";
+	public static $TXT ="text/plain";
+	public static $PDF ="application/pdf";
+	public static $BINARY ="application/octet-stream";
+	
+}
+
+class TypeSign{
+	public static $ENVELOPING = "ENVELOPING";
+	public static $ENVELOPED = "ENVELOPED";
+	public static $DETACHED = "DETACHED";
+	public static $ATTACHED = "ATTACHED";
+
+}
+
+?>
